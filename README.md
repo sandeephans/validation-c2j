@@ -8,4 +8,5 @@ These are the required files:
 - LLM generated Java source code
 - Cobol test cases with input and output values
 - Cobol to Java mapping
+- Resource map for external resources
 - Generated JUnit code with mocking
