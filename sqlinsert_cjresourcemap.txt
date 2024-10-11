@@ -1,0 +1,97 @@
+  {
+    "cobol": {
+      "stmts": [
+        {
+          "id": "insert1",
+          "stmtType": "SQLINSERT"
+        }
+      ],
+      "staticConstraints": [],
+      "dyanmicConstraints": []
+    },
+    "java": {
+      "javaStmts": [
+        {
+          "id": "preparestatement",
+          "stmt": {
+            "type": "JavaMethod",
+            "objectType": "java.sql.Connection",
+            "methodname": "prepareStatement",
+            "withReturn": true
+          },
+          "occurrences": "SINGLE"
+        },
+        {
+          "id": "executeUpdate",
+          "stmt": {
+            "type": "JavaMethod",
+            "objectType": "java.sql.PreparedStatement",
+            "methodname": "executeUpdate",
+            "withReturn": false
+          },
+          "occurrences": "SINGLE"
+        },
+        {
+          "id": "set",
+          "stmt": {
+            "type": "JavaMethod",
+            "objectType": "java.sql.PreparedStatement",
+            "methodname": "(setBoolean|setByte|setShort|setInt|setLong|setFloat|setDouble|setBigDecimal|setString|setDate|setTime|setTimestamp|setBlob|setClob)",
+            "withReturn": false
+          },
+          "occurrences": "MULTIPLE"
+        }
+      ],
+      "programconstraints": [
+        {
+          "type": "Alias",
+          "lhsstmt": "preparestatement",
+          "lhsitem": "RET",
+          "rhsstmt": "executeUpdate",
+          "rhsitem": "OBJ"
+        },
+        {
+          "type": "Alias",
+          "lhsstmt": "preparestatement",
+          "lhsitem": "RET",
+          "rhsstmt": "set",
+          "rhsitem": "OBJ"
+        }
+      ]
+    },
+    "resourcemaps": [
+      {
+        "cobolresource": {
+          "stmtId": "insert1",
+          "key": "RESOURCEVAR",
+          "input": false
+        },
+        "javaresource": {
+          "stmtid": "set",
+          "argindex": 1
+        },
+        "mappingConstraints": [
+          {
+            "type": "TableFieldMatch",
+            "args": [
+              {
+                "type": "CobolArg",
+                "stmt": "insert1",
+                "key": "RESOURCEVAR"
+              },
+              {
+                "type": "JavaParamValue",
+                "stmt": "preparestatement",
+                "paramIndex": 0
+              },
+              {
+                "type": "JavaParamValue",
+                "stmt": "set",
+                "paramIndex": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

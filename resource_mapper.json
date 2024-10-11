@@ -1,0 +1,504 @@
+{
+  "resourceMapInputs" : [ {
+    "cobolStmtLine" : 373,
+    "cobolResourceInput" : {
+      "cobol_var" : {
+        "program" : "LGACDB01",
+        "scope" : "PROGRAM",
+        "type_str" : "S9(9)",
+        "var" : "DB2-CUSTOMERNUM-INT OF DB2-OUT-INTEGERS"
+      },
+      "resource_var" : ""
+    },
+    "javaStmt" : {
+      "type" : "JavaMethodInstance",
+      "objectType" : "java.sql.ResultSet",
+      "methodname" : "getLong",
+      "withReturn" : true
+    },
+    "javaResource" : {
+      "stmtid" : "get",
+      "argindex" : -1
+    },
+    "javaStmtLine" : {
+      "line" : 88,
+      "tokenIndex" : 886
+    }
+  } ],
+  "resourceMapOutputs" : [ {
+    "cobolStmtLine" : 315,
+    "cobolResourceOutput" : {
+      "cobol_var" : {
+        "program" : "LGACDB01",
+        "scope" : "PROGRAM",
+        "type_str" : "S9(9)",
+        "var" : "DB2-CUSTOMERNUM-INT OF DB2-OUT-INTEGERS"
+      },
+      "resource_var" : "CUSTOMER.CUSTOMERNUMBER"
+    },
+    "javaStmt" : {
+      "type" : "JavaMethodInstance",
+      "objectType" : "java.sql.PreparedStatement",
+      "methodname" : "setLong",
+      "withReturn" : false
+    },
+    "javaResource" : {
+      "stmtid" : "set",
+      "argindex" : 1
+    },
+    "javaStmtLine" : {
+      "line" : 54,
+      "tokenIndex" : 421
+    }
+  }, {
+    "cobolStmtLine" : 315,
+    "cobolResourceOutput" : {
+      "cobol_var" : {
+        "program" : "LGACDB01",
+        "scope" : "PROGRAM",
+        "type_str" : "X(10)",
+        "var" : "CA-FIRST-NAME OF CA-CUSTOMER-REQUEST OF DFHCOMMAREA-1"
+      },
+      "resource_var" : "CUSTOMER.FIRSTNAME"
+    },
+    "javaStmt" : {
+      "type" : "JavaMethodInstance",
+      "objectType" : "java.sql.PreparedStatement",
+      "methodname" : "setString",
+      "withReturn" : false
+    },
+    "javaResource" : {
+      "stmtid" : "set",
+      "argindex" : 1
+    },
+    "javaStmtLine" : {
+      "line" : 55,
+      "tokenIndex" : 432
+    }
+  }, {
+    "cobolStmtLine" : 315,
+    "cobolResourceOutput" : {
+      "cobol_var" : {
+        "program" : "LGACDB01",
+        "scope" : "PROGRAM",
+        "type_str" : "X(20)",
+        "var" : "CA-LAST-NAME OF CA-CUSTOMER-REQUEST OF DFHCOMMAREA-1"
+      },
+      "resource_var" : "CUSTOMER.LASTNAME"
+    },
+    "javaStmt" : {
+      "type" : "JavaMethodInstance",
+      "objectType" : "java.sql.PreparedStatement",
+      "methodname" : "setString",
+      "withReturn" : false
+    },
+    "javaResource" : {
+      "stmtid" : "set",
+      "argindex" : 1
+    },
+    "javaStmtLine" : {
+      "line" : 56,
+      "tokenIndex" : 451
+    }
+  }, {
+    "cobolStmtLine" : 315,
+    "cobolResourceOutput" : {
+      "cobol_var" : {
+        "program" : "LGACDB01",
+        "scope" : "PROGRAM",
+        "type_str" : "X(10)",
+        "var" : "CA-DOB OF CA-CUSTOMER-REQUEST OF DFHCOMMAREA-1"
+      },
+      "resource_var" : "CUSTOMER.DATEOFBIRTH"
+    },
+    "javaStmt" : {
+      "type" : "JavaMethodInstance",
+      "objectType" : "java.sql.PreparedStatement",
+      "methodname" : "setDate",
+      "withReturn" : false
+    },
+    "javaResource" : {
+      "stmtid" : "set",
+      "argindex" : 1
+    },
+    "javaStmtLine" : {
+      "line" : 57,
+      "tokenIndex" : 470
+    }
+  }, {
+    "cobolStmtLine" : 315,
+    "cobolResourceOutput" : {
+      "cobol_var" : {
+        "program" : "LGACDB01",
+        "scope" : "PROGRAM",
+        "type_str" : "X(20)",
+        "var" : "CA-HOUSE-NAME OF CA-CUSTOMER-REQUEST OF DFHCOMMAREA-1"
+      },
+      "resource_var" : "CUSTOMER.HOUSENAME"
+    },
+    "javaStmt" : {
+      "type" : "JavaMethodInstance",
+      "objectType" : "java.sql.PreparedStatement",
+      "methodname" : "setString",
+      "withReturn" : false
+    },
+    "javaResource" : {
+      "stmtid" : "set",
+      "argindex" : 1
+    },
+    "javaStmtLine" : {
+      "line" : 58,
+      "tokenIndex" : 489
+    }
+  }, {
+    "cobolStmtLine" : 315,
+    "cobolResourceOutput" : {
+      "cobol_var" : {
+        "program" : "LGACDB01",
+        "scope" : "PROGRAM",
+        "type_str" : "X(4)",
+        "var" : "CA-HOUSE-NUM OF CA-CUSTOMER-REQUEST OF DFHCOMMAREA-1"
+      },
+      "resource_var" : "CUSTOMER.HOUSENUMBER"
+    },
+    "javaStmt" : {
+      "type" : "JavaMethodInstance",
+      "objectType" : "java.sql.PreparedStatement",
+      "methodname" : "setString",
+      "withReturn" : false
+    },
+    "javaResource" : {
+      "stmtid" : "set",
+      "argindex" : 1
+    },
+    "javaStmtLine" : {
+      "line" : 59,
+      "tokenIndex" : 508
+    }
+  }, {
+    "cobolStmtLine" : 315,
+    "cobolResourceOutput" : {
+      "cobol_var" : {
+        "program" : "LGACDB01",
+        "scope" : "PROGRAM",
+        "type_str" : "X(8)",
+        "var" : "CA-POSTCODE OF CA-CUSTOMER-REQUEST OF DFHCOMMAREA-1"
+      },
+      "resource_var" : "CUSTOMER.POSTCODE"
+    },
+    "javaStmt" : {
+      "type" : "JavaMethodInstance",
+      "objectType" : "java.sql.PreparedStatement",
+      "methodname" : "setString",
+      "withReturn" : false
+    },
+    "javaResource" : {
+      "stmtid" : "set",
+      "argindex" : 1
+    },
+    "javaStmtLine" : {
+      "line" : 60,
+      "tokenIndex" : 527
+    }
+  }, {
+    "cobolStmtLine" : 315,
+    "cobolResourceOutput" : {
+      "cobol_var" : {
+        "program" : "LGACDB01",
+        "scope" : "PROGRAM",
+        "type_str" : "X(20)",
+        "var" : "CA-PHONE-MOBILE OF CA-CUSTOMER-REQUEST OF DFHCOMMAREA-1"
+      },
+      "resource_var" : "CUSTOMER.PHONEMOBILE"
+    },
+    "javaStmt" : {
+      "type" : "JavaMethodInstance",
+      "objectType" : "java.sql.PreparedStatement",
+      "methodname" : "setString",
+      "withReturn" : false
+    },
+    "javaResource" : {
+      "stmtid" : "set",
+      "argindex" : 1
+    },
+    "javaStmtLine" : {
+      "line" : 61,
+      "tokenIndex" : 546
+    }
+  }, {
+    "cobolStmtLine" : 315,
+    "cobolResourceOutput" : {
+      "cobol_var" : {
+        "program" : "LGACDB01",
+        "scope" : "PROGRAM",
+        "type_str" : "X(20)",
+        "var" : "CA-PHONE-HOME OF CA-CUSTOMER-REQUEST OF DFHCOMMAREA-1"
+      },
+      "resource_var" : "CUSTOMER.PHONEHOME"
+    },
+    "javaStmt" : {
+      "type" : "JavaMethodInstance",
+      "objectType" : "java.sql.PreparedStatement",
+      "methodname" : "setString",
+      "withReturn" : false
+    },
+    "javaResource" : {
+      "stmtid" : "set",
+      "argindex" : 1
+    },
+    "javaStmtLine" : {
+      "line" : 62,
+      "tokenIndex" : 565
+    }
+  }, {
+    "cobolStmtLine" : 315,
+    "cobolResourceOutput" : {
+      "cobol_var" : {
+        "program" : "LGACDB01",
+        "scope" : "PROGRAM",
+        "type_str" : "X(100)",
+        "var" : "CA-EMAIL-ADDRESS OF CA-CUSTOMER-REQUEST OF DFHCOMMAREA-1"
+      },
+      "resource_var" : "CUSTOMER.EMAILADDRESS"
+    },
+    "javaStmt" : {
+      "type" : "JavaMethodInstance",
+      "objectType" : "java.sql.PreparedStatement",
+      "methodname" : "setString",
+      "withReturn" : false
+    },
+    "javaResource" : {
+      "stmtid" : "set",
+      "argindex" : 1
+    },
+    "javaStmtLine" : {
+      "line" : 63,
+      "tokenIndex" : 584
+    }
+  }, {
+    "cobolStmtLine" : 344,
+    "cobolResourceOutput" : {
+      "cobol_var" : {
+        "program" : "LGACDB01",
+        "scope" : "PROGRAM",
+        "type_str" : "X(10)",
+        "var" : "CA-FIRST-NAME OF CA-CUSTOMER-REQUEST OF DFHCOMMAREA-1"
+      },
+      "resource_var" : "CUSTOMER.FIRSTNAME"
+    },
+    "javaStmt" : {
+      "type" : "JavaMethodInstance",
+      "objectType" : "java.sql.PreparedStatement",
+      "methodname" : "setString",
+      "withReturn" : false
+    },
+    "javaResource" : {
+      "stmtid" : "set",
+      "argindex" : 1
+    },
+    "javaStmtLine" : {
+      "line" : 76,
+      "tokenIndex" : 688
+    }
+  }, {
+    "cobolStmtLine" : 344,
+    "cobolResourceOutput" : {
+      "cobol_var" : {
+        "program" : "LGACDB01",
+        "scope" : "PROGRAM",
+        "type_str" : "X(20)",
+        "var" : "CA-LAST-NAME OF CA-CUSTOMER-REQUEST OF DFHCOMMAREA-1"
+      },
+      "resource_var" : "CUSTOMER.LASTNAME"
+    },
+    "javaStmt" : {
+      "type" : "JavaMethodInstance",
+      "objectType" : "java.sql.PreparedStatement",
+      "methodname" : "setString",
+      "withReturn" : false
+    },
+    "javaResource" : {
+      "stmtid" : "set",
+      "argindex" : 1
+    },
+    "javaStmtLine" : {
+      "line" : 77,
+      "tokenIndex" : 707
+    }
+  }, {
+    "cobolStmtLine" : 344,
+    "cobolResourceOutput" : {
+      "cobol_var" : {
+        "program" : "LGACDB01",
+        "scope" : "PROGRAM",
+        "type_str" : "X(10)",
+        "var" : "CA-DOB OF CA-CUSTOMER-REQUEST OF DFHCOMMAREA-1"
+      },
+      "resource_var" : "CUSTOMER.DATEOFBIRTH"
+    },
+    "javaStmt" : {
+      "type" : "JavaMethodInstance",
+      "objectType" : "java.sql.PreparedStatement",
+      "methodname" : "setDate",
+      "withReturn" : false
+    },
+    "javaResource" : {
+      "stmtid" : "set",
+      "argindex" : 1
+    },
+    "javaStmtLine" : {
+      "line" : 78,
+      "tokenIndex" : 726
+    }
+  }, {
+    "cobolStmtLine" : 344,
+    "cobolResourceOutput" : {
+      "cobol_var" : {
+        "program" : "LGACDB01",
+        "scope" : "PROGRAM",
+        "type_str" : "X(20)",
+        "var" : "CA-HOUSE-NAME OF CA-CUSTOMER-REQUEST OF DFHCOMMAREA-1"
+      },
+      "resource_var" : "CUSTOMER.HOUSENAME"
+    },
+    "javaStmt" : {
+      "type" : "JavaMethodInstance",
+      "objectType" : "java.sql.PreparedStatement",
+      "methodname" : "setString",
+      "withReturn" : false
+    },
+    "javaResource" : {
+      "stmtid" : "set",
+      "argindex" : 1
+    },
+    "javaStmtLine" : {
+      "line" : 79,
+      "tokenIndex" : 745
+    }
+  }, {
+    "cobolStmtLine" : 344,
+    "cobolResourceOutput" : {
+      "cobol_var" : {
+        "program" : "LGACDB01",
+        "scope" : "PROGRAM",
+        "type_str" : "X(4)",
+        "var" : "CA-HOUSE-NUM OF CA-CUSTOMER-REQUEST OF DFHCOMMAREA-1"
+      },
+      "resource_var" : "CUSTOMER.HOUSENUMBER"
+    },
+    "javaStmt" : {
+      "type" : "JavaMethodInstance",
+      "objectType" : "java.sql.PreparedStatement",
+      "methodname" : "setString",
+      "withReturn" : false
+    },
+    "javaResource" : {
+      "stmtid" : "set",
+      "argindex" : 1
+    },
+    "javaStmtLine" : {
+      "line" : 80,
+      "tokenIndex" : 764
+    }
+  }, {
+    "cobolStmtLine" : 344,
+    "cobolResourceOutput" : {
+      "cobol_var" : {
+        "program" : "LGACDB01",
+        "scope" : "PROGRAM",
+        "type_str" : "X(8)",
+        "var" : "CA-POSTCODE OF CA-CUSTOMER-REQUEST OF DFHCOMMAREA-1"
+      },
+      "resource_var" : "CUSTOMER.POSTCODE"
+    },
+    "javaStmt" : {
+      "type" : "JavaMethodInstance",
+      "objectType" : "java.sql.PreparedStatement",
+      "methodname" : "setString",
+      "withReturn" : false
+    },
+    "javaResource" : {
+      "stmtid" : "set",
+      "argindex" : 1
+    },
+    "javaStmtLine" : {
+      "line" : 81,
+      "tokenIndex" : 783
+    }
+  }, {
+    "cobolStmtLine" : 344,
+    "cobolResourceOutput" : {
+      "cobol_var" : {
+        "program" : "LGACDB01",
+        "scope" : "PROGRAM",
+        "type_str" : "X(20)",
+        "var" : "CA-PHONE-MOBILE OF CA-CUSTOMER-REQUEST OF DFHCOMMAREA-1"
+      },
+      "resource_var" : "CUSTOMER.PHONEMOBILE"
+    },
+    "javaStmt" : {
+      "type" : "JavaMethodInstance",
+      "objectType" : "java.sql.PreparedStatement",
+      "methodname" : "setString",
+      "withReturn" : false
+    },
+    "javaResource" : {
+      "stmtid" : "set",
+      "argindex" : 1
+    },
+    "javaStmtLine" : {
+      "line" : 82,
+      "tokenIndex" : 802
+    }
+  }, {
+    "cobolStmtLine" : 344,
+    "cobolResourceOutput" : {
+      "cobol_var" : {
+        "program" : "LGACDB01",
+        "scope" : "PROGRAM",
+        "type_str" : "X(20)",
+        "var" : "CA-PHONE-HOME OF CA-CUSTOMER-REQUEST OF DFHCOMMAREA-1"
+      },
+      "resource_var" : "CUSTOMER.PHONEHOME"
+    },
+    "javaStmt" : {
+      "type" : "JavaMethodInstance",
+      "objectType" : "java.sql.PreparedStatement",
+      "methodname" : "setString",
+      "withReturn" : false
+    },
+    "javaResource" : {
+      "stmtid" : "set",
+      "argindex" : 1
+    },
+    "javaStmtLine" : {
+      "line" : 83,
+      "tokenIndex" : 821
+    }
+  }, {
+    "cobolStmtLine" : 344,
+    "cobolResourceOutput" : {
+      "cobol_var" : {
+        "program" : "LGACDB01",
+        "scope" : "PROGRAM",
+        "type_str" : "X(100)",
+        "var" : "CA-EMAIL-ADDRESS OF CA-CUSTOMER-REQUEST OF DFHCOMMAREA-1"
+      },
+      "resource_var" : "CUSTOMER.EMAILADDRESS"
+    },
+    "javaStmt" : {
+      "type" : "JavaMethodInstance",
+      "objectType" : "java.sql.PreparedStatement",
+      "methodname" : "setString",
+      "withReturn" : false
+    },
+    "javaResource" : {
+      "stmtid" : "set",
+      "argindex" : 1
+    },
+    "javaStmtLine" : {
+      "line" : 84,
+      "tokenIndex" : 840
+    }
+  } ]
+}

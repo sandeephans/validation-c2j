@@ -1,0 +1,1429 @@
+{
+  "classname": "Lgacdb01",
+  "programname": "LGACDB01",
+  "settergetter": [
+    {
+      "variable": "policynumber",
+      "class": "Genasa1Motor",
+      "setmethod": "setPolicynumber",
+      "getmethod": "getPolicynumber"
+    },
+    {
+      "variable": "make",
+      "class": "Genasa1Motor",
+      "setmethod": "setMake",
+      "getmethod": "getMake"
+    },
+    {
+      "variable": "model",
+      "class": "Genasa1Motor",
+      "setmethod": "setModel",
+      "getmethod": "getModel"
+    },
+    {
+      "variable": "value",
+      "class": "Genasa1Motor",
+      "setmethod": "setValue",
+      "getmethod": "getValue"
+    },
+    {
+      "variable": "regnumber",
+      "class": "Genasa1Motor",
+      "setmethod": "setRegnumber",
+      "getmethod": "getRegnumber"
+    },
+    {
+      "variable": "colour",
+      "class": "Genasa1Motor",
+      "setmethod": "setColour",
+      "getmethod": "getColour"
+    },
+    {
+      "variable": "cc",
+      "class": "Genasa1Motor",
+      "setmethod": "setCc",
+      "getmethod": "getCc"
+    },
+    {
+      "variable": "yearofmanufacture",
+      "class": "Genasa1Motor",
+      "setmethod": "setYearofmanufacture",
+      "getmethod": "getYearofmanufacture"
+    },
+    {
+      "variable": "premium",
+      "class": "Genasa1Motor",
+      "setmethod": "setPremium",
+      "getmethod": "getPremium"
+    },
+    {
+      "variable": "accidents",
+      "class": "Genasa1Motor",
+      "setmethod": "setAccidents",
+      "getmethod": "getAccidents"
+    },
+    {
+      "variable": "caEWithProfits",
+      "class": "CaEndowment",
+      "setmethod": "setCaEWithProfits",
+      "getmethod": "getCaEWithProfits"
+    },
+    {
+      "variable": "caEEquities",
+      "class": "CaEndowment",
+      "setmethod": "setCaEEquities",
+      "getmethod": "getCaEEquities"
+    },
+    {
+      "variable": "caEManagedFund",
+      "class": "CaEndowment",
+      "setmethod": "setCaEManagedFund",
+      "getmethod": "getCaEManagedFund"
+    },
+    {
+      "variable": "caEFundName",
+      "class": "CaEndowment",
+      "setmethod": "setCaEFundName",
+      "getmethod": "getCaEFundName"
+    },
+    {
+      "variable": "caETerm",
+      "class": "CaEndowment",
+      "setmethod": "setCaETerm",
+      "getmethod": "getCaETerm"
+    },
+    {
+      "variable": "caESumAssured",
+      "class": "CaEndowment",
+      "setmethod": "setCaESumAssured",
+      "getmethod": "getCaESumAssured"
+    },
+    {
+      "variable": "caELifeAssured",
+      "class": "CaEndowment",
+      "setmethod": "setCaELifeAssured",
+      "getmethod": "getCaELifeAssured"
+    },
+    {
+      "variable": "caEPaddingData",
+      "class": "CaEndowment",
+      "setmethod": "setCaEPaddingData",
+      "getmethod": "getCaEPaddingData"
+    },
+    {
+      "variable": "caRequestId",
+      "class": "Dfhcommarea1",
+      "setmethod": "setCaRequestId",
+      "getmethod": "getCaRequestId"
+    },
+    {
+      "variable": "caReturnCode",
+      "class": "Dfhcommarea1",
+      "setmethod": "setCaReturnCode",
+      "getmethod": "getCaReturnCode"
+    },
+    {
+      "variable": "caCustomerNum",
+      "class": "Dfhcommarea1",
+      "setmethod": "setCaCustomerNum",
+      "getmethod": "getCaCustomerNum"
+    },
+    {
+      "variable": "claimnumber",
+      "class": "Genasa1Claim",
+      "setmethod": "setClaimnumber",
+      "getmethod": "getClaimnumber"
+    },
+    {
+      "variable": "policynumber",
+      "class": "Genasa1Claim",
+      "setmethod": "setPolicynumber",
+      "getmethod": "getPolicynumber"
+    },
+    {
+      "variable": "claimdate",
+      "class": "Genasa1Claim",
+      "setmethod": "setClaimdate",
+      "getmethod": "getClaimdate"
+    },
+    {
+      "variable": "paid",
+      "class": "Genasa1Claim",
+      "setmethod": "setPaid",
+      "getmethod": "getPaid"
+    },
+    {
+      "variable": "value",
+      "class": "Genasa1Claim",
+      "setmethod": "setValue",
+      "getmethod": "getValue"
+    },
+    {
+      "variable": "cause",
+      "class": "Genasa1Claim",
+      "setmethod": "setCause",
+      "getmethod": "getCause"
+    },
+    {
+      "variable": "observations",
+      "class": "Genasa1Claim",
+      "setmethod": "setObservations",
+      "getmethod": "getObservations"
+    },
+    {
+      "variable": "policynumber",
+      "class": "Genasa1Commercial",
+      "setmethod": "setPolicynumber",
+      "getmethod": "getPolicynumber"
+    },
+    {
+      "variable": "requestdate",
+      "class": "Genasa1Commercial",
+      "setmethod": "setRequestdate",
+      "getmethod": "getRequestdate"
+    },
+    {
+      "variable": "startdate",
+      "class": "Genasa1Commercial",
+      "setmethod": "setStartdate",
+      "getmethod": "getStartdate"
+    },
+    {
+      "variable": "renewaldate",
+      "class": "Genasa1Commercial",
+      "setmethod": "setRenewaldate",
+      "getmethod": "getRenewaldate"
+    },
+    {
+      "variable": "address",
+      "class": "Genasa1Commercial",
+      "setmethod": "setAddress",
+      "getmethod": "getAddress"
+    },
+    {
+      "variable": "zipcode",
+      "class": "Genasa1Commercial",
+      "setmethod": "setZipcode",
+      "getmethod": "getZipcode"
+    },
+    {
+      "variable": "latituden",
+      "class": "Genasa1Commercial",
+      "setmethod": "setLatituden",
+      "getmethod": "getLatituden"
+    },
+    {
+      "variable": "longitudew",
+      "class": "Genasa1Commercial",
+      "setmethod": "setLongitudew",
+      "getmethod": "getLongitudew"
+    },
+    {
+      "variable": "customer",
+      "class": "Genasa1Commercial",
+      "setmethod": "setCustomer",
+      "getmethod": "getCustomer"
+    },
+    {
+      "variable": "propertytype",
+      "class": "Genasa1Commercial",
+      "setmethod": "setPropertytype",
+      "getmethod": "getPropertytype"
+    },
+    {
+      "variable": "fireperil",
+      "class": "Genasa1Commercial",
+      "setmethod": "setFireperil",
+      "getmethod": "getFireperil"
+    },
+    {
+      "variable": "firepremium",
+      "class": "Genasa1Commercial",
+      "setmethod": "setFirepremium",
+      "getmethod": "getFirepremium"
+    },
+    {
+      "variable": "crimeperil",
+      "class": "Genasa1Commercial",
+      "setmethod": "setCrimeperil",
+      "getmethod": "getCrimeperil"
+    },
+    {
+      "variable": "crimepremium",
+      "class": "Genasa1Commercial",
+      "setmethod": "setCrimepremium",
+      "getmethod": "getCrimepremium"
+    },
+    {
+      "variable": "floodperil",
+      "class": "Genasa1Commercial",
+      "setmethod": "setFloodperil",
+      "getmethod": "getFloodperil"
+    },
+    {
+      "variable": "floodpremium",
+      "class": "Genasa1Commercial",
+      "setmethod": "setFloodpremium",
+      "getmethod": "getFloodpremium"
+    },
+    {
+      "variable": "weatherperil",
+      "class": "Genasa1Commercial",
+      "setmethod": "setWeatherperil",
+      "getmethod": "getWeatherperil"
+    },
+    {
+      "variable": "weatherpremium",
+      "class": "Genasa1Commercial",
+      "setmethod": "setWeatherpremium",
+      "getmethod": "getWeatherpremium"
+    },
+    {
+      "variable": "status",
+      "class": "Genasa1Commercial",
+      "setmethod": "setStatus",
+      "getmethod": "getStatus"
+    },
+    {
+      "variable": "rejectionreason",
+      "class": "Genasa1Commercial",
+      "setmethod": "setRejectionreason",
+      "getmethod": "getRejectionreason"
+    },
+    {
+      "variable": "caIssueDate",
+      "class": "CaPolicyCommon",
+      "setmethod": "setCaIssueDate",
+      "getmethod": "getCaIssueDate"
+    },
+    {
+      "variable": "caExpiryDate",
+      "class": "CaPolicyCommon",
+      "setmethod": "setCaExpiryDate",
+      "getmethod": "getCaExpiryDate"
+    },
+    {
+      "variable": "caLastchanged",
+      "class": "CaPolicyCommon",
+      "setmethod": "setCaLastchanged",
+      "getmethod": "getCaLastchanged"
+    },
+    {
+      "variable": "caBrokerid",
+      "class": "CaPolicyCommon",
+      "setmethod": "setCaBrokerid",
+      "getmethod": "getCaBrokerid"
+    },
+    {
+      "variable": "caBrokersref",
+      "class": "CaPolicyCommon",
+      "setmethod": "setCaBrokersref",
+      "getmethod": "getCaBrokersref"
+    },
+    {
+      "variable": "caPayment",
+      "class": "CaPolicyCommon",
+      "setmethod": "setCaPayment",
+      "getmethod": "getCaPayment"
+    },
+    {
+      "variable": "caPolicyNum",
+      "class": "CaPolicyRequest",
+      "setmethod": "setCaPolicyNum",
+      "getmethod": "getCaPolicyNum"
+    },
+    {
+      "variable": "caPolicyCommon",
+      "class": "CaPolicyRequest",
+      "setmethod": "setCaPolicyCommon",
+      "getmethod": "getCaPolicyCommon"
+    },
+    {
+      "variable": "policynumber",
+      "class": "Genasa1Endowment",
+      "setmethod": "setPolicynumber",
+      "getmethod": "getPolicynumber"
+    },
+    {
+      "variable": "equities",
+      "class": "Genasa1Endowment",
+      "setmethod": "setEquities",
+      "getmethod": "getEquities"
+    },
+    {
+      "variable": "withprofits",
+      "class": "Genasa1Endowment",
+      "setmethod": "setWithprofits",
+      "getmethod": "getWithprofits"
+    },
+    {
+      "variable": "managedfund",
+      "class": "Genasa1Endowment",
+      "setmethod": "setManagedfund",
+      "getmethod": "getManagedfund"
+    },
+    {
+      "variable": "fundname",
+      "class": "Genasa1Endowment",
+      "setmethod": "setFundname",
+      "getmethod": "getFundname"
+    },
+    {
+      "variable": "term",
+      "class": "Genasa1Endowment",
+      "setmethod": "setTerm",
+      "getmethod": "getTerm"
+    },
+    {
+      "variable": "sumassured",
+      "class": "Genasa1Endowment",
+      "setmethod": "setSumassured",
+      "getmethod": "getSumassured"
+    },
+    {
+      "variable": "lifeassured",
+      "class": "Genasa1Endowment",
+      "setmethod": "setLifeassured",
+      "getmethod": "getLifeassured"
+    },
+    {
+      "variable": "paddingdata",
+      "class": "Genasa1Endowment",
+      "setmethod": "setPaddingdata",
+      "getmethod": "getPaddingdata"
+    },
+    {
+      "variable": "caMMake",
+      "class": "CaMotor",
+      "setmethod": "setCaMMake",
+      "getmethod": "getCaMMake"
+    },
+    {
+      "variable": "caMModel",
+      "class": "CaMotor",
+      "setmethod": "setCaMModel",
+      "getmethod": "getCaMModel"
+    },
+    {
+      "variable": "caMValue",
+      "class": "CaMotor",
+      "setmethod": "setCaMValue",
+      "getmethod": "getCaMValue"
+    },
+    {
+      "variable": "caMRegnumber",
+      "class": "CaMotor",
+      "setmethod": "setCaMRegnumber",
+      "getmethod": "getCaMRegnumber"
+    },
+    {
+      "variable": "caMColour",
+      "class": "CaMotor",
+      "setmethod": "setCaMColour",
+      "getmethod": "getCaMColour"
+    },
+    {
+      "variable": "caMCc",
+      "class": "CaMotor",
+      "setmethod": "setCaMCc",
+      "getmethod": "getCaMCc"
+    },
+    {
+      "variable": "caMManufactured",
+      "class": "CaMotor",
+      "setmethod": "setCaMManufactured",
+      "getmethod": "getCaMManufactured"
+    },
+    {
+      "variable": "caMPremium",
+      "class": "CaMotor",
+      "setmethod": "setCaMPremium",
+      "getmethod": "getCaMPremium"
+    },
+    {
+      "variable": "caMAccidents",
+      "class": "CaMotor",
+      "setmethod": "setCaMAccidents",
+      "getmethod": "getCaMAccidents"
+    },
+    {
+      "variable": "caMFiller",
+      "class": "CaMotor",
+      "setmethod": "setCaMFiller",
+      "getmethod": "getCaMFiller"
+    },
+    {
+      "variable": "caBAddress",
+      "class": "CaCommercial",
+      "setmethod": "setCaBAddress",
+      "getmethod": "getCaBAddress"
+    },
+    {
+      "variable": "caBPostcode",
+      "class": "CaCommercial",
+      "setmethod": "setCaBPostcode",
+      "getmethod": "getCaBPostcode"
+    },
+    {
+      "variable": "caBLatitude",
+      "class": "CaCommercial",
+      "setmethod": "setCaBLatitude",
+      "getmethod": "getCaBLatitude"
+    },
+    {
+      "variable": "caBLongitude",
+      "class": "CaCommercial",
+      "setmethod": "setCaBLongitude",
+      "getmethod": "getCaBLongitude"
+    },
+    {
+      "variable": "caBCustomer",
+      "class": "CaCommercial",
+      "setmethod": "setCaBCustomer",
+      "getmethod": "getCaBCustomer"
+    },
+    {
+      "variable": "caBPropType",
+      "class": "CaCommercial",
+      "setmethod": "setCaBPropType",
+      "getmethod": "getCaBPropType"
+    },
+    {
+      "variable": "caBFirePeril",
+      "class": "CaCommercial",
+      "setmethod": "setCaBFirePeril",
+      "getmethod": "getCaBFirePeril"
+    },
+    {
+      "variable": "caBFirePremium",
+      "class": "CaCommercial",
+      "setmethod": "setCaBFirePremium",
+      "getmethod": "getCaBFirePremium"
+    },
+    {
+      "variable": "caBCrimePeril",
+      "class": "CaCommercial",
+      "setmethod": "setCaBCrimePeril",
+      "getmethod": "getCaBCrimePeril"
+    },
+    {
+      "variable": "caBCrimePremium",
+      "class": "CaCommercial",
+      "setmethod": "setCaBCrimePremium",
+      "getmethod": "getCaBCrimePremium"
+    },
+    {
+      "variable": "caBFloodPeril",
+      "class": "CaCommercial",
+      "setmethod": "setCaBFloodPeril",
+      "getmethod": "getCaBFloodPeril"
+    },
+    {
+      "variable": "caBFloodPremium",
+      "class": "CaCommercial",
+      "setmethod": "setCaBFloodPremium",
+      "getmethod": "getCaBFloodPremium"
+    },
+    {
+      "variable": "caBWeatherPeril",
+      "class": "CaCommercial",
+      "setmethod": "setCaBWeatherPeril",
+      "getmethod": "getCaBWeatherPeril"
+    },
+    {
+      "variable": "caBWeatherPremium",
+      "class": "CaCommercial",
+      "setmethod": "setCaBWeatherPremium",
+      "getmethod": "getCaBWeatherPremium"
+    },
+    {
+      "variable": "caBStatus",
+      "class": "CaCommercial",
+      "setmethod": "setCaBStatus",
+      "getmethod": "getCaBStatus"
+    },
+    {
+      "variable": "caBRejectReason",
+      "class": "CaCommercial",
+      "setmethod": "setCaBRejectReason",
+      "getmethod": "getCaBRejectReason"
+    },
+    {
+      "variable": "caBFiller",
+      "class": "CaCommercial",
+      "setmethod": "setCaBFiller",
+      "getmethod": "getCaBFiller"
+    },
+    {
+      "variable": "customernumber",
+      "class": "Genasa1Customer",
+      "setmethod": "setCustomernumber",
+      "getmethod": "getCustomernumber"
+    },
+    {
+      "variable": "firstname",
+      "class": "Genasa1Customer",
+      "setmethod": "setFirstname",
+      "getmethod": "getFirstname"
+    },
+    {
+      "variable": "lastname",
+      "class": "Genasa1Customer",
+      "setmethod": "setLastname",
+      "getmethod": "getLastname"
+    },
+    {
+      "variable": "dateofbirth",
+      "class": "Genasa1Customer",
+      "setmethod": "setDateofbirth",
+      "getmethod": "getDateofbirth"
+    },
+    {
+      "variable": "housename",
+      "class": "Genasa1Customer",
+      "setmethod": "setHousename",
+      "getmethod": "getHousename"
+    },
+    {
+      "variable": "housenumber",
+      "class": "Genasa1Customer",
+      "setmethod": "setHousenumber",
+      "getmethod": "getHousenumber"
+    },
+    {
+      "variable": "postcode",
+      "class": "Genasa1Customer",
+      "setmethod": "setPostcode",
+      "getmethod": "getPostcode"
+    },
+    {
+      "variable": "phonehome",
+      "class": "Genasa1Customer",
+      "setmethod": "setPhonehome",
+      "getmethod": "getPhonehome"
+    },
+    {
+      "variable": "phonemobile",
+      "class": "Genasa1Customer",
+      "setmethod": "setPhonemobile",
+      "getmethod": "getPhonemobile"
+    },
+    {
+      "variable": "emailaddress",
+      "class": "Genasa1Customer",
+      "setmethod": "setEmailaddress",
+      "getmethod": "getEmailaddress"
+    },
+    {
+      "variable": "caNumPolicies",
+      "class": "CaCustomerRequest",
+      "setmethod": "setCaNumPolicies",
+      "getmethod": "getCaNumPolicies"
+    },
+    {
+      "variable": "caPolicyData",
+      "class": "CaCustomerRequest",
+      "setmethod": "setCaPolicyData",
+      "getmethod": "getCaPolicyData"
+    },
+    {
+      "variable": "genasa1Customer",
+      "class": "CaCustomerRequest",
+      "setmethod": "setGenasa1Customer",
+      "getmethod": "getGenasa1Customer"
+    },
+    {
+      "variable": "caCustsecrPass",
+      "class": "CaCustsecrRequest",
+      "setmethod": "setCaCustsecrPass",
+      "getmethod": "getCaCustsecrPass"
+    },
+    {
+      "variable": "caCustsecrCount",
+      "class": "CaCustsecrRequest",
+      "setmethod": "setCaCustsecrCount",
+      "getmethod": "getCaCustsecrCount"
+    },
+    {
+      "variable": "caCustsecrState",
+      "class": "CaCustsecrRequest",
+      "setmethod": "setCaCustsecrState",
+      "getmethod": "getCaCustsecrState"
+    },
+    {
+      "variable": "caCustsecrData",
+      "class": "CaCustsecrRequest",
+      "setmethod": "setCaCustsecrData",
+      "getmethod": "getCaCustsecrData"
+    },
+    {
+      "variable": "caCNum",
+      "class": "CaClaim",
+      "setmethod": "setCaCNum",
+      "getmethod": "getCaCNum"
+    },
+    {
+      "variable": "caCDate",
+      "class": "CaClaim",
+      "setmethod": "setCaCDate",
+      "getmethod": "getCaCDate"
+    },
+    {
+      "variable": "caCPaid",
+      "class": "CaClaim",
+      "setmethod": "setCaCPaid",
+      "getmethod": "getCaCPaid"
+    },
+    {
+      "variable": "caCValue",
+      "class": "CaClaim",
+      "setmethod": "setCaCValue",
+      "getmethod": "getCaCValue"
+    },
+    {
+      "variable": "caCCause",
+      "class": "CaClaim",
+      "setmethod": "setCaCCause",
+      "getmethod": "getCaCCause"
+    },
+    {
+      "variable": "caCObservations",
+      "class": "CaClaim",
+      "setmethod": "setCaCObservations",
+      "getmethod": "getCaCObservations"
+    },
+    {
+      "variable": "caCFiller",
+      "class": "CaClaim",
+      "setmethod": "setCaCFiller",
+      "getmethod": "getCaCFiller"
+    },
+    {
+      "variable": "policynumber",
+      "class": "Genasa1Policy",
+      "setmethod": "setPolicynumber",
+      "getmethod": "getPolicynumber"
+    },
+    {
+      "variable": "customernumber",
+      "class": "Genasa1Policy",
+      "setmethod": "setCustomernumber",
+      "getmethod": "getCustomernumber"
+    },
+    {
+      "variable": "issuedate",
+      "class": "Genasa1Policy",
+      "setmethod": "setIssuedate",
+      "getmethod": "getIssuedate"
+    },
+    {
+      "variable": "expirydate",
+      "class": "Genasa1Policy",
+      "setmethod": "setExpirydate",
+      "getmethod": "getExpirydate"
+    },
+    {
+      "variable": "policytype",
+      "class": "Genasa1Policy",
+      "setmethod": "setPolicytype",
+      "getmethod": "getPolicytype"
+    },
+    {
+      "variable": "lastchanged",
+      "class": "Genasa1Policy",
+      "setmethod": "setLastchanged",
+      "getmethod": "getLastchanged"
+    },
+    {
+      "variable": "brokerid",
+      "class": "Genasa1Policy",
+      "setmethod": "setBrokerid",
+      "getmethod": "getBrokerid"
+    },
+    {
+      "variable": "brokersreference",
+      "class": "Genasa1Policy",
+      "setmethod": "setBrokersreference",
+      "getmethod": "getBrokersreference"
+    },
+    {
+      "variable": "payment",
+      "class": "Genasa1Policy",
+      "setmethod": "setPayment",
+      "getmethod": "getPayment"
+    },
+    {
+      "variable": "commission",
+      "class": "Genasa1Policy",
+      "setmethod": "setCommission",
+      "getmethod": "getCommission"
+    },
+    {
+      "variable": "emCusnum",
+      "class": "EmVariable",
+      "setmethod": "setEmCusnum",
+      "getmethod": "getEmCusnum"
+    },
+    {
+      "variable": "emPolnum",
+      "class": "EmVariable",
+      "setmethod": "setEmPolnum",
+      "getmethod": "getEmPolnum"
+    },
+    {
+      "variable": "emSqlreq",
+      "class": "EmVariable",
+      "setmethod": "setEmSqlreq",
+      "getmethod": "getEmSqlreq"
+    },
+    {
+      "variable": "emSqlrc",
+      "class": "EmVariable",
+      "setmethod": "setEmSqlrc",
+      "getmethod": "getEmSqlrc"
+    },
+    {
+      "variable": "policynumber",
+      "class": "Genasa1House",
+      "setmethod": "setPolicynumber",
+      "getmethod": "getPolicynumber"
+    },
+    {
+      "variable": "propertytype",
+      "class": "Genasa1House",
+      "setmethod": "setPropertytype",
+      "getmethod": "getPropertytype"
+    },
+    {
+      "variable": "bedrooms",
+      "class": "Genasa1House",
+      "setmethod": "setBedrooms",
+      "getmethod": "getBedrooms"
+    },
+    {
+      "variable": "value",
+      "class": "Genasa1House",
+      "setmethod": "setValue",
+      "getmethod": "getValue"
+    },
+    {
+      "variable": "housename",
+      "class": "Genasa1House",
+      "setmethod": "setHousename",
+      "getmethod": "getHousename"
+    },
+    {
+      "variable": "housenumber",
+      "class": "Genasa1House",
+      "setmethod": "setHousenumber",
+      "getmethod": "getHousenumber"
+    },
+    {
+      "variable": "postcode",
+      "class": "Genasa1House",
+      "setmethod": "setPostcode",
+      "getmethod": "getPostcode"
+    },
+    {
+      "variable": "caHPropertyType",
+      "class": "CaHouse",
+      "setmethod": "setCaHPropertyType",
+      "getmethod": "getCaHPropertyType"
+    },
+    {
+      "variable": "caHBedrooms",
+      "class": "CaHouse",
+      "setmethod": "setCaHBedrooms",
+      "getmethod": "getCaHBedrooms"
+    },
+    {
+      "variable": "caHValue",
+      "class": "CaHouse",
+      "setmethod": "setCaHValue",
+      "getmethod": "getCaHValue"
+    },
+    {
+      "variable": "caHHouseName",
+      "class": "CaHouse",
+      "setmethod": "setCaHHouseName",
+      "getmethod": "getCaHHouseName"
+    },
+    {
+      "variable": "caHHouseNumber",
+      "class": "CaHouse",
+      "setmethod": "setCaHHouseNumber",
+      "getmethod": "getCaHHouseNumber"
+    },
+    {
+      "variable": "caHPostcode",
+      "class": "CaHouse",
+      "setmethod": "setCaHPostcode",
+      "getmethod": "getCaHPostcode"
+    },
+    {
+      "variable": "caHFiller",
+      "class": "CaHouse",
+      "setmethod": "setCaHFiller",
+      "getmethod": "getCaHFiller"
+    },
+    {
+      "variable": "emDate",
+      "class": "ErrorMsg",
+      "setmethod": "setEmDate",
+      "getmethod": "getEmDate"
+    },
+    {
+      "variable": "emTime",
+      "class": "ErrorMsg",
+      "setmethod": "setEmTime",
+      "getmethod": "getEmTime"
+    },
+    {
+      "variable": "emVariable",
+      "class": "ErrorMsg",
+      "setmethod": "setEmVariable",
+      "getmethod": "getEmVariable"
+    },
+    {
+      "variable": "customernumber",
+      "class": "Genasa1CustomerSecure",
+      "setmethod": "setCustomernumber",
+      "getmethod": "getCustomernumber"
+    },
+    {
+      "variable": "customerpass",
+      "class": "Genasa1CustomerSecure",
+      "setmethod": "setCustomerpass",
+      "getmethod": "getCustomerpass"
+    },
+    {
+      "variable": "stateIndicator",
+      "class": "Genasa1CustomerSecure",
+      "setmethod": "setStateIndicator",
+      "getmethod": "getStateIndicator"
+    },
+    {
+      "variable": "passChanges",
+      "class": "Genasa1CustomerSecure",
+      "setmethod": "setPassChanges",
+      "getmethod": "getPassChanges"
+    }
+  ],
+  "tablecolumns": [
+    {
+      "table": "GENASA1.POLICY",
+      "fields": [
+        {
+          "fieldname": "COMMISSION",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "PAYMENT",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "ISSUEDATE",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "POLICYNUMBER",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "POLICYTYPE",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "BROKERID",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "LASTCHANGED",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "EXPIRYDATE",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "CUSTOMERNUMBER",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "BROKERSREFERENCE",
+          "type": "unknown"
+        }
+      ]
+    },
+    {
+      "table": "GENASA1.HOUSE",
+      "fields": [
+        {
+          "fieldname": "POLICYNUMBER",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "POSTCODE",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "PROPERTYTYPE",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "HOUSENUMBER",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "BEDROOMS",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "VALUE",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "HOUSENAME",
+          "type": "unknown"
+        }
+      ]
+    },
+    {
+      "table": "GENASA1.MOTOR",
+      "fields": [
+        {
+          "fieldname": "CC",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "ACCIDENTS",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "POLICYNUMBER",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "PREMIUM",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "YEAROFMANUFACTURE",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "MODEL",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "VALUE",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "MAKE",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "COLOUR",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "REGNUMBER",
+          "type": "unknown"
+        }
+      ]
+    },
+    {
+      "table": "GENASA1.CUSTOMER",
+      "fields": [
+        {
+          "fieldname": "DATEOFBIRTH",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "LASTNAME",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "PHONEMOBILE",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "POSTCODE",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "PHONEHOME",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "HOUSENUMBER",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "EMAILADDRESS",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "FIRSTNAME",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "HOUSENAME",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "CUSTOMERNUMBER",
+          "type": "unknown"
+        }
+      ]
+    },
+    {
+      "table": "GENASA1.COMMERCIAL",
+      "fields": [
+        {
+          "fieldname": "CRIMEPREMIUM",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "FLOODPERIL",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "LATITUDEN",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "WEATHERPREMIUM",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "STARTDATE",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "FIREPREMIUM",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "ZIPCODE",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "RENEWALDATE",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "PROPERTYTYPE",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "CRIMEPERIL",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "REJECTIONREASON",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "STATUS",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "LONGITUDEW",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "POLICYNUMBER",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "ADDRESS",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "CUSTOMER",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "FLOODPREMIUM",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "WEATHERPERIL",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "REQUESTDATE",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "FIREPERIL",
+          "type": "unknown"
+        }
+      ]
+    },
+    {
+      "table": "GENASA1.CLAIM",
+      "fields": [
+        {
+          "fieldname": "POLICYNUMBER",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "CAUSE",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "OBSERVATIONS",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "PAID",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "VALUE",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "CLAIMNUMBER",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "CLAIMDATE",
+          "type": "unknown"
+        }
+      ]
+    },
+    {
+      "table": "GENASA1.ENDOWMENT",
+      "fields": [
+        {
+          "fieldname": "FUNDNAME",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "SUMASSURED",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "EQUITIES",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "WITHPROFITS",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "POLICYNUMBER",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "MANAGEDFUND",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "TERM",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "LIFEASSURED",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "PADDINGDATA",
+          "type": "unknown"
+        }
+      ]
+    },
+    {
+      "table": "GENASA1.CUSTOMER_SECURE",
+      "fields": [
+        {
+          "fieldname": "STATE_INDICATOR",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "CUSTOMERPASS",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "CUSTOMERNUMBER",
+          "type": "unknown"
+        },
+        {
+          "fieldname": "PASS_CHANGES",
+          "type": "unknown"
+        }
+      ]
+    }
+  ],
+  "methodname": "insertCustomer",
+  "paragraph": "INSERT-CUSTOMER",
+  "methodmap": [
+    {
+      "cobolprogram": "LGACDB01",
+      "cobolpara": "WRITE-ERROR-MESSAGE",
+      "javaclass": "ErrorMsg",
+      "java_func": "errorMsg.writeErrorMessage(dfhcommarea1)",
+      "javamethod": "writeErrorMessage"
+    }
+  ],
+  "varmapping": [
+    {
+      "JavaVar": {
+        "var_type": "[String]",
+        "scope": "2",
+        "objectaccess": "lgacNcs"
+      },
+      "CobolVar": {
+        "var": "LGAC-NCS",
+        "type_str": "X(2)"
+      }
+    },
+    {
+      "JavaVar": {
+        "var_type": "[int]",
+        "scope": "2",
+        "objectaccess": "db2CustomernumInt"
+      },
+      "CobolVar": {
+        "var": "DB2-CUSTOMERNUM-INT",
+        "type_str": "S9(9)"
+      }
+    },
+    {
+      "JavaVar": {
+        "var_type": "[Dfhcommarea1, int]",
+        "scope": "2",
+        "objectaccess": "caCustomerRequest.caReturnCode"
+      },
+      "CobolVar": {
+        "var": "CA-RETURN-CODE",
+        "type_str": "9(2)"
+      }
+    },
+    {
+      "JavaVar": {
+        "var_type": "[Dfhcommarea1, long]",
+        "scope": "2",
+        "objectaccess": "caCustomerRequest.caCustomerNum"
+      },
+      "CobolVar": {
+        "var": "CA-CUSTOMER-NUM",
+        "type_str": "9(10)"
+      }
+    },
+    {
+      "JavaVar": {
+        "var_type": "[CaCustomerRequest, Genasa1Customer, String]",
+        "scope": "2",
+        "objectaccess": "caCustomerRequest.genasa1Customer.firstname"
+      },
+      "CobolVar": {
+        "var": "CA-FIRST-NAME",
+        "type_str": "X(10)"
+      }
+    },
+    {
+      "JavaVar": {
+        "var_type": "[CaCustomerRequest, Genasa1Customer, String]",
+        "scope": "2",
+        "objectaccess": "caCustomerRequest.genasa1Customer.lastname"
+      },
+      "CobolVar": {
+        "var": "CA-LAST-NAME",
+        "type_str": "X(20)"
+      }
+    },
+    {
+      "JavaVar": {
+        "var_type": "[CaCustomerRequest, Genasa1Customer, Date]",
+        "scope": "2",
+        "objectaccess": "caCustomerRequest.genasa1Customer.dateofbirth"
+      },
+      "CobolVar": {
+        "var": "CA-DOB",
+        "type_str": "X(10)"
+      }
+    },
+    {
+      "JavaVar": {
+        "var_type": "[CaCustomerRequest, Genasa1Customer, String]",
+        "scope": "2",
+        "objectaccess": "caCustomerRequest.genasa1Customer.housename"
+      },
+      "CobolVar": {
+        "var": "CA-HOUSE-NAME",
+        "type_str": "X(20)"
+      }
+    },
+    {
+      "JavaVar": {
+        "var_type": "[CaCustomerRequest, Genasa1Customer, String]",
+        "scope": "2",
+        "objectaccess": "caCustomerRequest.genasa1Customer.housenumber"
+      },
+      "CobolVar": {
+        "var": "CA-HOUSE-NUM",
+        "type_str": "X(4)"
+      }
+    },
+    {
+      "JavaVar": {
+        "var_type": "[CaCustomerRequest, Genasa1Customer, String]",
+        "scope": "2",
+        "objectaccess": "caCustomerRequest.genasa1Customer.postcode"
+      },
+      "CobolVar": {
+        "var": "CA-POSTCODE",
+        "type_str": "X(8)"
+      }
+    },
+    {
+      "JavaVar": {
+        "var_type": "[CaCustomerRequest, Genasa1Customer, String]",
+        "scope": "2",
+        "objectaccess": "caCustomerRequest.genasa1Customer.phonemobile"
+      },
+      "CobolVar": {
+        "var": "CA-PHONE-MOBILE",
+        "type_str": "X(20)"
+      }
+    },
+    {
+      "JavaVar": {
+        "var_type": "[CaCustomerRequest, Genasa1Customer, String]",
+        "scope": "2",
+        "objectaccess": "caCustomerRequest.genasa1Customer.phonehome"
+      },
+      "CobolVar": {
+        "var": "CA-PHONE-HOME",
+        "type_str": "X(20)"
+      }
+    },
+    {
+      "JavaVar": {
+        "var_type": "[CaCustomerRequest, Genasa1Customer, String]",
+        "scope": "2",
+        "objectaccess": "caCustomerRequest.genasa1Customer.emailaddress"
+      },
+      "CobolVar": {
+        "var": "CA-EMAIL-ADDRESS",
+        "type_str": "X(100)"
+      }
+    },
+    {
+      "JavaVar": {
+        "var_type": "[ErrorMsg, EmVariable, String]",
+        "scope": "2",
+        "objectaccess": "errorMsg.emVariable.emSqlreq"
+      },
+      "CobolVar": {
+        "var": "EM-SQLREQ",
+        "type_str": "X(16)"
+      }
+    }
+  ]
+}
